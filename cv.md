@@ -1,4 +1,4 @@
-![photo](C:\Users\kirki\Downloads\Telegram Desktop\ava.jpg)
+![ava](https://user-images.githubusercontent.com/117171611/206420090-122a6b20-e407-417f-86dc-b89a382d10c6.jpg)
 # Kirill Perepechin
 ## Contacts 
 * **Location**: Minsk, Belarus
