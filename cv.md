@@ -5,8 +5,8 @@
 * **Phone**: +375 25 790 55 00
 * **Discord** Varlex#2252
 * **Email**: varlexk@gmail.com
-* **Git**: [Varlexxx](https://github.com/Varlexxx)
 * **Telegram** [varlexx](https://t.me/varlexx)
+* **Git**: [Varlexxx](https://github.com/Varlexxx)
 ## About me
 I am a student in RS School. I want to become a JavaScript developer.
 ## Skills
