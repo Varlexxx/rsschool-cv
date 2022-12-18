@@ -1,3 +1,94 @@
-<html>
-<h1>заголовок</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <img src="assets/image.jpg" height="280" width="200" alt="My photo"> 
+  <link rel="icon" href="assets/favicon2.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="header">
+  <div class="container">
+<nav class="nav">
+  <ul class="nav-list">                                                                           <!--навигация/-->
+    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+    <li class="nav-item"><a href="#aboute" class="nav-link">Aboute me</a></li>
+    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+  </ul>
+</nav>
+  </div>
+ </header> 
+ <main class="main-container">
+  <div class="container">
+    <section class="section" id="profile">                                                         <!--секция профиль-->
+    <h1 class="section-title">Kirill Perepechin</h1>                                            
+    </section>
+  <section class="section" id="contacts">                                                         <!--//секция контакты -->  
+  <h2 class="section-title">Contacts</h2>
+<ul class="cont-list">
+  <li class="cont-item">Location: Minsk, Belarus</li>
+  <li class="cont-item">Phone: +375 25 790 55 00</li>
+  <li class="cont-item">Discord Varlex#2252</li>
+  <li class="cont-item">Email: varlexk@gmail.com</li>
+  <li class="cont-item">Telegram: <a href="https://t.me/varlexx">varlexx</a></li>
+  <li class="cont-item">Git:<a href="https://github.com/Varlexxx">Varlexxx</a></li>
+</ul>
+</section>
+<section class="section" id="aboute">                                                              <!--//секция обо мне-->
+<h2 class="section-title">Aboute me</h2>
+<p class="abouteme">I am a student in RS School. I want to become a JavaScript developer.</p>
+</section>
+<section class="section" id="skills">                                                              <!--//секция навыки -->   
+  <h2 class="section-title">Skills</h2>
+  <ul class="skills-list">
+    <li class="skills-item">HTML</li>
+    <li class="skills-item">CSS</li>
+    <li class="skills-item">Git</li>
+  </ul>
+</section>
+<section class="section" id="code">
+  <h2 class="section-title">Code Example</h2>                                                      <!--//секция пример кода. Добавить код!!-->
+<code>
+  const square = (num) => {
+    return num * num;
+  };
+</code>
+</section>
+<section class="section" id="experience">                                                          <!--//секция опыт-->
+  <h2 class="section-title">Experience</h2>
+  <p>Student in RSSchool</p>
+</section>
+<section class="section" id="education">                                                          <!--образование-->
+  <h2 class="section-title">Education</h2>
+  <ul class="educ-list">
+    <li class="educ-item">BSEU” Minsk Trade College”</li>
+    <li class="educ-item">BSEU</li>
+  </ul>
+</section>
+<section class="section" id="languages">                                                         <!--секция языки-->
+  <h2 class="section-title">Languages</h2>    
+  <ul class="lang-list">
+    <li class="lang-item"><b>English</b> A2</li>
+    <li class="lang-item"><b>Russian</b> native speaker</li>
+  </ul>                                       
+</section>
+</div>
+ </main>
+ <footer class="footer">
+<div class="container">
+  <a href="https://github.com/Varlexxx">My Github</a>
+   <p class="footer-year">2022</p>
+  <a href="https://rs.school/js/" class="footer-rss">
+    <img src="./assets/rs_school_js.svg" width="86" height="32" alt="RSSchool">
+  </a>  
+</div>
+ </footer>
+</body>
 </html>
