@@ -9,6 +9,11 @@
   }
   .footer{
     border: 1px solid red;
+    
+  }
+  .footer-rs{
+    display: flex;
+    justify-content: space-between;
   }
   body{
     display: flex;
@@ -21,7 +26,7 @@
   }
   .nav-list{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     list-style: none;
   }
@@ -56,6 +61,9 @@
       width: 100%;
     }
   }
+  section {
+    display: block;
+}
   body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
